@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node simple-server.js",
     "dev": "node simple-server.js",
-    "postinstall": "prisma generate --schema=prisma/schema.prisma"
+    "postinstall": "prisma generate"
   },
   "keywords": ["api", "polling", "tapvote"],
   "author": "TapVote Team",
