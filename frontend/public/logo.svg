@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="64" cy="64" r="64" fill="#2563EB"/>
+  
+  <!-- Vote/Check Symbol -->
+  <path d="M35 64L55 82L93 46" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Tap/Touch Indicator -->
+  <circle cx="64" cy="64" r="48" stroke="white" stroke-width="2" stroke-opacity="0.3" fill="none"/>
+  <circle cx="64" cy="64" r="40" stroke="white" stroke-width="1" stroke-opacity="0.2" fill="none"/>
+  
+  <!-- Small dots representing global/multilingual aspect -->
+  <circle cx="30" cy="30" r="3" fill="white" opacity="0.6"/>
+  <circle cx="98" cy="30" r="3" fill="white" opacity="0.6"/>
+  <circle cx="30" cy="98" r="3" fill="white" opacity="0.6"/>
+  <circle cx="98" cy="98" r="3" fill="white" opacity="0.6"/>
+</svg>
