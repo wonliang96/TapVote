@@ -13,7 +13,7 @@
     "db:migrate": "prisma migrate dev",
     "db:studio": "prisma studio",
     "db:seed": "node dist/scripts/seed.js",
-    "postinstall": "prisma generate",
+    "postinstall": "prisma generate --schema=prisma/schema.prisma",
     "deploy": "npm run build && npm run start:prod",
     "health": "curl -f http://localhost:5003/health || exit 1"
   },
