@@ -2,11 +2,11 @@
 
 ## Railway Backend Deployment
 
-### Method 1: Using Root Directory Setting (Recommended)
+### IMPORTANT: Set Root Directory to `backend`
 1. **Railway Settings:**
-   - Root Directory: `backend`
-   - Start Command: `node simple-server.js`
-   - Build Command: `npm install && prisma generate --schema=prisma/schema.prisma`
+   - Root Directory: `backend` ⚠️ MUST SET THIS
+   - Start Command: `node server.js`
+   - Build Command: Leave empty (auto-detect)
 
 2. **Environment Variables:**
    ```
