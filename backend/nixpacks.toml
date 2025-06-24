@@ -1,8 +1,0 @@
-[phases.install]
-cmd = "npm install"
-
-[phases.build]
-cmd = "npx prisma generate"
-
-[start]
-cmd = "node simple-server.js"
