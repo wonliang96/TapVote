@@ -1,16 +1,11 @@
 {
-  "name": "tapvote-backend-simple",
+  "name": "tapvote-backend",
   "version": "1.0.0",
-  "description": "TapVote Backend API - Simple Version",
-  "main": "simple-server.js",
+  "description": "TapVote Backend API",
+  "main": "server.js",
   "scripts": {
-    "start": "node simple-server.js",
-    "dev": "node simple-server.js",
-    "postinstall": "prisma generate"
+    "start": "node server.js"
   },
-  "keywords": ["api", "polling", "tapvote"],
-  "author": "TapVote Team",
-  "license": "MIT",
   "dependencies": {
     "@prisma/client": "5.7.1",
     "cors": "^2.8.5",
@@ -18,6 +13,6 @@
     "prisma": "5.7.1"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x"
   }
 }

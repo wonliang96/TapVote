@@ -41,7 +41,7 @@
   "redirects": [
     {
       "source": "/api/(.*)",
-      "destination": "https://your-backend-url.railway.app/api/$1",
+      "destination": "https://tapvote-production.up.railway.app/api/$1",
       "permanent": false
     }
   ]
