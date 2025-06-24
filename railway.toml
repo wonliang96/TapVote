@@ -1,0 +1,9 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "cd backend && node server.js"
+
+[environments.production]
+DATABASE_URL = "file:./dev.db"
+NODE_ENV = "production"
