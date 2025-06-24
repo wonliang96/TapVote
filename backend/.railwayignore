@@ -1,0 +1,10 @@
+src/
+dist/
+tsconfig.json
+package-simple.json
+*.ts
+.env
+logs/
+README.md
+add-sample-polls.js
+create-polls.js
