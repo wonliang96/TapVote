@@ -6,12 +6,12 @@
   "framework": "nextjs",
   "regions": ["cle1", "iad1"],
   "env": {
-    "NEXT_PUBLIC_API_URL": "@api-url",
+    "NEXT_PUBLIC_API_URL": "https://tapvote-production.up.railway.app",
     "NODE_ENV": "production"
   },
   "build": {
     "env": {
-      "NEXT_PUBLIC_API_URL": "@api-url"
+      "NEXT_PUBLIC_API_URL": "https://tapvote-production.up.railway.app"
     }
   },
   "functions": {
